@@ -16,8 +16,8 @@ class School
   def grade(num)
     roster(num)
   end
-# => {9 => ["AC Slater", "Zach Morris"], 
-#10 => ["Aardvark", "Kelly Kapowski"], 
+# => {9 => ["AC Slater", "Zach Morris"],
+#10 => ["Aardvark", "Kelly Kapowski"],
 #11 => ["Screech", "Xavier"]}
 
 
@@ -28,9 +28,9 @@ class School
     end
     sorted
   end
-      
+
 
   end
-    
+
 
 end
