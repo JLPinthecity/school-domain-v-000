@@ -11,7 +11,7 @@ class School
   def add_student(name, grade)
      roster[grade] = []
      roster[grade] << "#{name}" if !roster[grade].include?("#{name}")
-     roster[grade] 
+     roster[grade]
      binding.pry
   end
 
