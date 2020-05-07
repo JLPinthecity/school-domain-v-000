@@ -12,7 +12,6 @@ class School
      roster[grade] = []
      roster[grade] << "#{name}" if !roster[grade].include?("#{name}")
      roster[grade]
-     binding.pry
   end
 
 end
